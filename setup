@@ -73,7 +73,7 @@ packages() {
         sudo apt install ffmpeg -y &>/dev/null &&
             pprint "SUCCESS.\n\n" "cgreen" || {
                 pprint "FAIL.\n\n" "cred"
-                pprint "You need to install ffmpeg manually to deploy Annie X Music.\n" "cred"
+                pprint "You need to install ffmpeg manually to deploy DESTINY X Music.\n" "cred"
                 exit 1
             }
     fi
@@ -143,7 +143,7 @@ main() {
     clear
     display_banner
 
-    pprint "\nWelcome to Annie Setup Installer\n\n" "cgreen"
+    pprint "\nWelcome to DESTINY Setup Installer\n\n" "cgreen"
     pprint "If any errors occur, check log files:\n" "ccyan"
     pprint "- Node.js: nodelog.txt\n" "ccyan"
     pprint "- Python:  pypilog.txt\n\n" "ccyan"
@@ -157,7 +157,7 @@ main() {
     node
     installation
 
-    pprint "\nAnnie Installation Completed!\n" "cgreen"
+    pprint "\nDESTINY Installation Completed!\n" "cgreen"
     sleep 1
     clear
 
@@ -197,7 +197,7 @@ API_KEY=$api_key
 EOF
 
     clear
-    pprint "\nThanks for using the Annie installer. Configuration saved successfully!\n" "cgreen"
+    pprint "\nThanks for using the DESTINY installer. Configuration saved successfully!\n" "cgreen"
     pprint "To edit variables later, use: vi .env\n" "ccyan"
     pprint "To start the bot: bash start\n\n" "cgreen"
 }

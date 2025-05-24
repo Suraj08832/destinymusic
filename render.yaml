@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: AnnieXMusic
+    name: DESTINYXMusic
     plan: free
     runtime: python
     buildCommand: pip install -r requirements.txt
